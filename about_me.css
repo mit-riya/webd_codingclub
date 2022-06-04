@@ -1,0 +1,180 @@
+header{
+    height: 50vh;
+    background-image: url(header_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text-center{
+    text-align: center;
+}
+.horizontal-list li{
+    display: inline-block;
+}
+.horizontal-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    margin: 10px;
+    font-weight: bold;
+}
+.horizontal-list li a:hover{
+    border-bottom: 1px solid black;
+    color:red;
+}
+#About{
+    height: auto;
+    width:100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -15vh;
+}
+#my-image img{
+    border-radius: 50%;
+    height:100%;
+    width:100%;
+    border-color: black;
+    border-style: solid;
+}
+#about_me_text{
+    text-align: center;
+    padding-left: 18vw;
+    padding-right:18vw;
+    font-size: larger;
+}
+#icons{
+    margin-top: 20vh;
+}
+#name{
+    font-size: 65px;
+    margin-bottom: 8px;
+    margin-top: -25px;   
+}
+.icon_img{
+    height: 25px;
+    width: 25px;
+    margin-top: -75px;
+}
+#Skills div{
+    display: inline-block;
+}
+#div1{
+    background-color: antiquewhite;
+    width: 33%;
+    height: auto;
+}
+#div2{
+    background-color:bisque;
+    width: 33%;
+    height: auto;
+}
+#div3{
+    background-color:blanchedalmond;
+    width: 33%;
+    height: auto;
+}
+.timeline{
+    position: relative;
+    width:75%;
+    left: 12.5%;
+    background-color: lavender;
+    padding-top: 8px;
+}
+.timeline_box{
+    position: relative;
+    width:40%;
+    left:5%;
+    margin: 5px;
+    min-height: 100px;
+       
+}
+.timeline_box:nth-child(2n){
+    left:53%;
+}
+.timeline_box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top:30%;
+    right: -13%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    z-index: 1;
+}
+.timeline_box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top:30%;
+    left: -9%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    z-index: 1;
+}
+.timeline_divider{
+    position: absolute;
+    height:83.5%;
+    width: 0px;
+    border:2px dashed blue;
+    top:5.3%;
+    left:50%;
+}
+.timeline_traveller{
+    position: sticky;
+    top:30%;
+    transform: translateX(-25px);
+    z-index: 2;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+#Achievements h3{
+    margin-bottom: -22px;
+}
+#Achievements h4{
+    margin-bottom: -13px;
+}
+footer div{
+    background-color: blueviolet;
+}
+footer img{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+}
+footer li div{
+    margin-left: 50px;
+}
+h1{
+    font-size: 28px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+#row1{
+    background-color:#94b6f2;
+    font-weight: bold;
+}
+#row2,#row4{
+    background-color:#c7e4f0;
+}
+#row3{
+    background-color:#91c5db;
+}
+td{
+    font-size: x-large;
+}
